@@ -1,0 +1,104 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 460
+  ClientWidth = 635
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 635
+    Height = 28
+    Align = alTop
+    TabOrder = 0
+    object btnSelectDir: TButton
+      Left = 0
+      Top = 0
+      Width = 75
+      Height = 25
+      Caption = #36873#25321#30446#24405
+      TabOrder = 0
+    end
+    object btnClose: TButton
+      Left = 560
+      Top = 0
+      Width = 75
+      Height = 25
+      Caption = #20851#38381
+      TabOrder = 1
+    end
+    object btnEncrypt: TButton
+      Left = 78
+      Top = 0
+      Width = 75
+      Height = 25
+      Caption = #21152#23494
+      TabOrder = 2
+    end
+  end
+  object StatusBar1: TStatusBar
+    Left = 0
+    Top = 441
+    Width = 635
+    Height = 19
+    Panels = <
+      item
+        Width = 200
+      end
+      item
+        Width = 50
+      end>
+    ExplicitLeft = 328
+    ExplicitTop = 240
+    ExplicitWidth = 0
+  end
+  object GroupBox1: TGroupBox
+    Left = 0
+    Top = 28
+    Width = 635
+    Height = 45
+    Align = alTop
+    Caption = #25991#20214#30446#24405
+    TabOrder = 2
+    object edtDir: TEdit
+      Left = 2
+      Top = 15
+      Width = 631
+      Height = 21
+      Align = alTop
+      TabOrder = 0
+      Text = 'c:'
+      ExplicitLeft = 264
+      ExplicitTop = 84
+      ExplicitWidth = 121
+    end
+  end
+  object GroupBox2: TGroupBox
+    Left = 0
+    Top = 73
+    Width = 635
+    Height = 368
+    Align = alClient
+    Caption = #20449#24687
+    TabOrder = 3
+    ExplicitHeight = 217
+    object memoInfo: TMemo
+      Left = 2
+      Top = 15
+      Width = 631
+      Height = 351
+      Align = alClient
+      ScrollBars = ssBoth
+      TabOrder = 0
+    end
+  end
+end

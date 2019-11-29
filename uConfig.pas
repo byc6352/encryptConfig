@@ -1,0 +1,34 @@
+unit uConfig;
+
+interface
+uses
+  Vcl.Forms,System.SysUtils,windows;
+const
+  APP_NAME='猎豹远程协助手机系统(配置工具)';
+  APP_VERSION='1.00';
+  WORK_DIR:string='config'; //_DIR:string='setphone';
+  LOG_NAME:string='configLog.txt';
+  CONFIG_FILE:string='config.dat'; //配置文件
+  CRYPTED_FILE:string='config_en.dat'; //配置文件
+  CONFIG_KEY:ansiString='154.221.19.215';
+
+var
+  workdir:string;//工作目录
+  isInit:boolean=false;
+  procedure init();
+
+implementation
+procedure init();
+var
+    me:String;
+begin
+  isInit:=true;
+  me:=application.ExeName;
+  workdir:=extractfiledir(me)+'\'+WORK_DIR;
+  if(not DirectoryExists(workdir))then ForceDirectories(workdir);
+
+end;
+
+begin
+  init();
+end.

@@ -1,0 +1,47 @@
+unit uConfig;
+
+interface
+uses
+  Vcl.Forms,System.SysUtils,windows;
+const
+  APP_NAME='猎豹远程协助手机系统(电脑版)';
+  APP_VERSION='3.00';
+  WORK_DIR:string='myphone'; //_DIR:string='setphone';
+  LOG_NAME:string='myphoneLog.txt';
+  SET_NAME:string='phone.cfg';
+  CONFIG_DAT:string='config.dat'; //配置文件
+  //REPEATER_IP:ansistring='154.221.19.215';
+  REPEATER_IP:ansistring='127.0.0.1';
+  port_order:DWORD=6001;
+  port_data:DWORD=6002;
+  port_screen:DWORD=6003;
+  port_CAMERA:DWORD=6004;
+
+  update_ip='154.221.19.215';
+  update_port=8105;
+var
+  workdir,setPhoneDir:string;//工作目录
+  configdat:string;
+  isInit:boolean=false;
+  procedure init();
+
+implementation
+procedure init();
+var
+    me:String;
+begin
+  isInit:=true;
+  me:=application.ExeName;
+  workdir:=extractfiledir(me)+'\'+WORK_DIR;
+  //if(not DirectoryExists(workdir))then ForceDirectories(workdir);
+  configdat:=workdir+'\'+CONFIG_DAT;
+
+  //if(not DirectoryExists(configdir))then ForceDirectories(configdir);
+  //configInitialdir:=workdir+'\'+CONFIG_INITIAL_DIR;
+  //if(not DirectoryExists(configdir))then ForceDirectories(configdir);
+
+end;
+
+begin
+  init();
+end.
