@@ -78,7 +78,7 @@ object fMain: TfMain
       Align = alTop
       TabOrder = 0
       Text = 
-        'D:\works\delphi\phone\myphone\Win32\Debug\Config\hidephone\confi' +
+        'D:\works\delphi\phone\myphone\Win32\Debug\Config\showphone\confi' +
         'g'
     end
   end

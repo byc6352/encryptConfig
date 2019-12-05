@@ -44,8 +44,7 @@ end;
 
 procedure TfMain.btnEncryptClick(Sender: TObject);
 begin
-  configdir:=trim(editConfigDir.Text);
-  configfile:= extractfiledir(configdir)+'\'+uconfig.CONFIG_FILE;
+  configfile:= configdir+'\'+uconfig.CONFIG_FILE;
   encryptfile:= extractfiledir(configdir)+'\'+uconfig.CRYPTED_FILE;
   uzip.DirectoryCompression(configdir,configfile);
   memoInfo.Lines.Add('Ñ¹ËõÍê³É£º'+configfile);

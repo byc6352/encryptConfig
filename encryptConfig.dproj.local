@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2019/11/29 12:56:41.225,=D:\works\delphi\Unit1.pas</Transaction>
-    <Transaction>2019/11/29 12:57:14.562,D:\works\delphi\phone\encryptConfig\uMain.pas=D:\works\delphi\Unit1.pas</Transaction>
-    <Transaction>2019/11/29 12:57:14.562,D:\works\delphi\phone\encryptConfig\uMain.dfm=D:\works\delphi\Unit1.dfm</Transaction>
-    <Transaction>2019/11/29 12:57:32.987,D:\works\delphi\phone\encryptConfig\encryptConfig.dproj=D:\works\delphi\Project1.dproj</Transaction>
-    <Transaction>2019/11/29 13:20:45.499,=D:\works\delphi\phone\encryptConfig\AES.pas</Transaction>
-    <Transaction>2019/11/29 13:20:45.504,=D:\works\delphi\phone\encryptConfig\uConfig.pas</Transaction>
-    <Transaction>2019/11/29 13:20:45.509,=D:\works\delphi\phone\encryptConfig\uZip.pas</Transaction>
+	<Transactions>
+    <Transaction>2019/11/29 12:56:41.000.225,=D:\works\delphi\Unit1.pas</Transaction>
+    <Transaction>2019/11/29 12:57:14.000.562,D:\works\delphi\Unit1.dfm=D:\works\delphi\phone\encryptConfig\uMain.dfm</Transaction>
+    <Transaction>2019/11/29 12:57:14.000.562,D:\works\delphi\Unit1.pas=D:\works\delphi\phone\encryptConfig\uMain.pas</Transaction>
+    <Transaction>2019/11/29 12:57:32.000.987,D:\works\delphi\Project1.dproj=D:\works\delphi\phone\encryptConfig\encryptConfig.dproj</Transaction>
+    <Transaction>2019/11/29 13:20:45.000.504,=D:\works\delphi\phone\encryptConfig\uConfig.pas</Transaction>
+    <Transaction>2019/11/29 13:20:45.000.499,=D:\works\delphi\phone\encryptConfig\AES.pas</Transaction>
+    <Transaction>2019/11/29 13:20:45.000.509,=D:\works\delphi\phone\encryptConfig\uZip.pas</Transaction>
   </Transactions>
 </BorlandProject>
